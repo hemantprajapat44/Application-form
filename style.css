@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(130, 106, 251);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.form .column{
+    color: white;
+    display: flex;
+    column-gap: 20%;
+    font-size: 20px;
+}
+.form .column2{
+    color: white;
+    display: flex;
+    column-gap: 29.3%;
+    font-size: 20px;
+}
+.form .column3{
+    color: white;
+    display: flex;
+    column-gap: 30.7%;
+    font-size: 20px;
+}
+.form .radio{
+    font-size: 27px;
+    color: white;
+}
+.form .chek{
+    font-size: 27px;
+    color: white;
+}
+.form .column4{
+    color: white;
+    display: flex;
+    column-gap: 16.7%;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+input[type="reset"]{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}

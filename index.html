@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Application Form</h1>
+    <br>
+    <br>
+    <fieldset style="border: solid white 5px;">
+        <legend style="color: white;">Form</legend>
+    <form class="form">
+      <div class="column">
+        <div class="input-box">
+            <label>First Name:</label>
+            <input type="text" name="first name"/>
+        </div>
+        <div class="input-box">
+            <label>Last Name:</label>
+            <input type="text" name="last name"/>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="column2">
+        <div class="input-box2">
+            <label>Date of birth:</label>
+            <input type="date" name="date of birth" placeholder="MM / DD / YYYY"/>
+        </div>
+        <div class="input-box">
+            <label>Age:</label>
+            <input type="number" name="age"/>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="column3">
+        <div class="input-box2">
+            <label>Gender:</label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <div class="input-box">
+            <label>Email Address:</label>
+            <input type="email" name="email" placeholder="Enter email address"/>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="radio">
+        <label>Positions Available:</label>
+        <input type="radio" name="work"/>Junior Developer
+        <input type="radio" name="work"/>Mid-level Developer
+        <input type="radio" name="work"/>Senior Developer
+        </div>
+        <br>
+        <br>
+        <div class="chek">
+            <label>Programming Languages:</label>
+            <input type="checkbox" name="languages"/>Java
+            <input type="checkbox" name="languages"/>JavaScript
+            <input type="checkbox" name="languages"/>Python
+        </div>
+        <br>
+        <br>
+        <div class="column4">
+            <div class="input-box2">
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <div class="input-box">
+                <label>Confirm Password:</label>
+                <input type="password" name="confirm password"/>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <input type="submit" name="submit"/>
+            <input type="reset" name="reset"/>
+        </div>
+    </form>
+    </fieldset>
+</body>
+</html>
